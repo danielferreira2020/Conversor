@@ -909,8 +909,8 @@ FROM stages_rc_card.faturamento_convenios
       </output>
     </remotesteps>
     <GUI>
-      <xloc>96</xloc>
-      <yloc>144</yloc>
+      <xloc>48</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1017,8 +1017,8 @@ FROM stages_rc_card.faturamento_convenios
       </output>
     </remotesteps>
     <GUI>
-      <xloc>544</xloc>
-      <yloc>144</yloc>
+      <xloc>256</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

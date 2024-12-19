@@ -49,7 +49,7 @@ def import_data_to_table(df, schema, table_name, engine):
 db_user = 'daniel.soares'
 db_password = 'daniel.rc'  # Senha em texto claro
 db_host = 'srv'
-db_port = '5432'  # Porta personalizada; ajuste se necessário
+db_port = '5432'
 db_name = 'rc_card'
 db_schema = 'stages_rc_card'
 
@@ -64,22 +64,24 @@ print(f'String de conexão: {connection_string}')
 engine = create_engine(connection_string)
 
 # Caminho para o arquivo XLS
-xls_file_path = "//srv/ie/Planilhas/Lojas.xls"
+xls_file_path = "C:/Users/DAniel/Documents/TESTE.xlsx"
 
-# Tentar ler o arquivo Excel com pandas
+# Nome da planilha a ser lida
+sheet_name = 'PENSIONISTAS'  # Defina o nome da planilha
+
+# Tentar ler a planilha específica do arquivo Excel com pandas
 try:
-    df = pd.read_excel(xls_file_path, header=None)  # Não considera a primeira linha como cabeçalho
-    print("Dados lidos com sucesso do arquivo Excel.")
+    df = pd.read_excel(xls_file_path, sheet_name=sheet_name, header=None)  # Carregar a planilha pelo nome
+    print("Dados lidos com sucesso da planilha específica.")
 except Exception as e:
-    print(f"Erro ao ler o arquivo Excel: {e}")
+    print(f"Erro ao ler a planilha '{sheet_name}': {e}")
 
 # Verificar o número de colunas no DataFrame
 num_columns = df.shape[1]
 print(f"Número de colunas detectado: {num_columns}")
 
-# Ajuste a lista de nomes de colunas conforme necessário
-# Por exemplo, se você tem 53 colunas, a lista deve ter 53 nomes
-column_names = [f'coluna{i+1}' for i in range(num_columns)]  # Nomes genéricos, substitua conforme necessário
+# Nomes das colunas conforme o número de colunas detectado
+column_names = [f'coluna{i+1}' for i in range(num_columns)]  # Substitua conforme necessário
 
 # Aplicar os nomes de colunas ao DataFrame
 df.columns = column_names
@@ -92,7 +94,7 @@ remaining_columns = df.shape[1]
 print(f"Número de colunas restantes após remover nulas: {remaining_columns}")
 
 # Nome da tabela
-table_name = 'lojas'  # Defina o nome da tabela conforme necessário
+table_name = 'teste06'  # Defina o nome da tabela conforme necessário
 
 # Criar a tabela no banco de dados
 create_table_from_df(df, db_schema, table_name, engine)

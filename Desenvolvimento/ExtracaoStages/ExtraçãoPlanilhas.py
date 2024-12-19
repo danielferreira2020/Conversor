@@ -49,9 +49,9 @@ def import_data_to_table(df, schema, table_name, engine):
 
 # Configurações de conexão com o banco de dados
 db_user = 'daniel.soares'
-db_password = os.getenv('DB_PASSWORD', 'daniel.rc')  # Senha pode ser obtida a partir de uma variável de ambiente
+db_password = 'daniel.rc'  # Senha em texto claro
 db_host = 'srv'
-db_port = '5432'
+db_port = '5432'  # Porta personalizada; ajuste se necessário
 db_name = 'rc_card'
 db_schema = 'stages_rc_card'
 
@@ -65,19 +65,28 @@ print(f'String de conexão: {connection_string}')
 # Criação do engine
 engine = create_engine(connection_string)
 
-# Caminho para o arquivo Excel
-excel_file_path = '//srv/ie/Power Bi/Dashboards/Saque/D_Convenios.xlsx'
+# Caminho para o arquivo XLS
+xls_file_path = "/C:/Users/DAniel/Documents/TESTE.xlsx"
 
-# Ler todas as abas em um dicionário de DataFrames
-dfs = pd.read_excel(excel_file_path, sheet_name=None)
+# Tentar ler o arquivo Excel com pandas
+try:
+    df = pd.read_excel(xls_file_path, header=0)  # Considera a primeira linha como cabeçalho
+    print("Dados lidos com sucesso do arquivo Excel.")
+except Exception as e:
+    print(f"Erro ao ler o arquivo Excel: {e}")
 
-# Iterar sobre cada aba e criar tabela e importar dados
-for sheet_name, df in dfs.items():
-    # Verificar e ajustar os dados, se necessário
-    df = df.applymap(lambda x: x.encode('utf-8').decode('utf-8') if isinstance(x, str) else x)
-    
-    # Criar a tabela no banco de dados
-    create_table_from_df(df, db_schema, sheet_name, engine)
-    
-    # Importar os dados para a tabela criada
-    import_data_to_table(df, db_schema, sheet_name, engine)
+# Remover colunas completamente nulas
+df = df.dropna(axis=1, how='all')
+
+# Verificar o número de colunas restantes
+remaining_columns = df.shape[1]
+print(f"Número de colunas restantes após remover nulas: {remaining_columns}")
+
+# Nome da tabela
+table_name = 'teste01'  # Defina o nome da tabela conforme necessário
+
+# Criar a tabela no banco de dados
+create_table_from_df(df, db_schema, table_name, engine)
+
+# Importar os dados para a tabela criada
+import_data_to_table(df, db_schema, table_name, engine)
