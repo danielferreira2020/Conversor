@@ -1,0 +1,266 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20240801104317[-3:GMT]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>SANTANDER
+                <FID>SANTANDER
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>BRL
+                <BANKACCTFROM>
+                    <BANKID>033
+                    <ACCTID>3348290008975
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20240801104317[-3:GMT]
+                    <DTEND>20240801104317[-3:GMT]
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240701000000[-3:GMT]
+                        <TRNAMT>2963,20
+                        <FITID>00020108
+                        <CHECKNUM>00020108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240701000000[-3:GMT]
+                        <TRNAMT>7613,95
+                        <FITID>00030108
+                        <CHECKNUM>00030108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240701000000[-3:GMT]
+                        <TRNAMT>9510,57
+                        <FITID>00040108
+                        <CHECKNUM>00040108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240701000000[-3:GMT]
+                        <TRNAMT>4258,05
+                        <FITID>00050108
+                        <CHECKNUM>00050108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240701000000[-3:GMT]
+                        <TRNAMT>7895,94
+                        <FITID>00060108
+                        <CHECKNUM>00060108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240703000000[-3:GMT]
+                        <TRNAMT>211,45
+                        <FITID>00070108
+                        <CHECKNUM>00070108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240703000000[-3:GMT]
+                        <TRNAMT>500,00
+                        <FITID>00080108
+                        <CHECKNUM>00080108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240703000000[-3:GMT]
+                        <TRNAMT>4696,56
+                        <FITID>00090108
+                        <CHECKNUM>00090108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240703000000[-3:GMT]
+                        <TRNAMT>6419,08
+                        <FITID>00100108
+                        <CHECKNUM>00100108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240708000000[-3:GMT]
+                        <TRNAMT>13087,88
+                        <FITID>00110108
+                        <CHECKNUM>00110108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240709000000[-3:GMT]
+                        <TRNAMT>1424,21
+                        <FITID>00120108
+                        <CHECKNUM>00120108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240711000000[-3:GMT]
+                        <TRNAMT>39988,06
+                        <FITID>00130108
+                        <CHECKNUM>00130108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240711000000[-3:GMT]
+                        <TRNAMT>3719,25
+                        <FITID>00140108
+                        <CHECKNUM>00140108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240711000000[-3:GMT]
+                        <TRNAMT>31832,09
+                        <FITID>00150108
+                        <CHECKNUM>00150108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240711000000[-3:GMT]
+                        <TRNAMT>1062,92
+                        <FITID>00160108
+                        <CHECKNUM>00160108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240716000000[-3:GMT]
+                        <TRNAMT>491,89
+                        <FITID>00170108
+                        <CHECKNUM>00170108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240722000000[-3:GMT]
+                        <TRNAMT>8490,17
+                        <FITID>00180108
+                        <CHECKNUM>00180108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240722000000[-3:GMT]
+                        <TRNAMT>17102,69
+                        <FITID>00190108
+                        <CHECKNUM>00190108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240723000000[-3:GMT]
+                        <TRNAMT>-166281,01
+                        <FITID>00200108
+                        <CHECKNUM>00200108
+                        <PAYEEID>0
+                        <MEMO>SALDO VINCULADO LIBERADO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240730000000[-3:GMT]
+                        <TRNAMT>3039,75
+                        <FITID>00210108
+                        <CHECKNUM>00210108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240730000000[-3:GMT]
+                        <TRNAMT>1425,58
+                        <FITID>00220108
+                        <CHECKNUM>00220108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240730000000[-3:GMT]
+                        <TRNAMT>2881,16
+                        <FITID>00230108
+                        <CHECKNUM>00230108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240731000000[-3:GMT]
+                        <TRNAMT>987,44
+                        <FITID>00240108
+                        <CHECKNUM>00240108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20240731000000[-3:GMT]
+                        <TRNAMT>7895,64
+                        <FITID>00250108
+                        <CHECKNUM>00250108
+                        <PAYEEID>0
+                        <MEMO>COBRANCA GARANTIA
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>16229,57
+                    <DTASOF>20240801104317[-3:GMT]
+                </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>

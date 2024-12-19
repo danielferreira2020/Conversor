@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="US-ASCII"?><OFX></<?xml version="1.0" encoding="US-ASCII"?><OFX>>
+    <SIGNONMSGSRSV1>
+        <SONRS></<SONRS>>
+            <STATUS></<STATUS>>
+                <CODE></<CODE>>0
+                <SEVERITY></<SEVERITY>>INFO
+            </STATUS>
+            <DTSERVER></<DTSERVER>>20240827094438[-3:GMT]
+            <LANGUAGE></<LANGUAGE>>ENG
+            <FI></<FI>>
+                <ORG></<ORG>>SANTANDER
+                <FID></<FID>>SANTANDER
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS></<STMTTRNRS>>
+            <TRNUID></<TRNUID>>1
+            <STATUS></<STATUS>>
+                <CODE></<CODE>>0
+                <SEVERITY></<SEVERITY>>INFO
+            </STATUS>
+            <STMTRS></<STMTRS>>
+                <CURDEF></<CURDEF>>BRC
+                <BANKACCTFROM></<BANKACCTFROM>>
+                    <BANKID></<BANKID>>033
+                    <ACCTID></<ACCTID>>3348130085384
+                    <ACCTTYPE></<ACCTTYPE>>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST></<BANKTRANLIST>>
+                    <DTSTART></<DTSTART>>20240827094438[-3:GMT]
+                    <DTEND></<DTEND>>20240827094438[-3:GMT]
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>8187,87
+                        <FITID></<FITID>>00022708
+                        <CHECKNUM></<CHECKNUM>>00022708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>CR COB BLOQ COMP CONF RECEBIMENTO  3348/000763802
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1333,25
+                        <FITID></<FITID>>00032708
+                        <CHECKNUM></<CHECKNUM>>00032708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       08365850000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>67,50
+                        <FITID></<FITID>>00042708
+                        <CHECKNUM></<CHECKNUM>>00042708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       13759150000125
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>62,98
+                        <FITID></<FITID>>00052708
+                        <CHECKNUM></<CHECKNUM>>00052708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       13759150000125
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1,80
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB COM REG COMPE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-0,90
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR PRORROG VCTO COB SIMP-ELETR
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-9648,90
+                        <FITID></<FITID>>00082708
+                        <CHECKNUM></<CHECKNUM>>00082708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>0,50
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>ESTORNO DE TARIFA
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>9648,90
+                        <FITID></<FITID>>00102708
+                        <CHECKNUM></<CHECKNUM>>00102708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>CANCELAMENTO APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240801000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-9649,40
+                        <FITID></<FITID>>00112708
+                        <CHECKNUM></<CHECKNUM>>00112708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240802000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>40037,66
+                        <FITID></<FITID>>00122708
+                        <CHECKNUM></<CHECKNUM>>00122708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX RECEBIDO                       00418160000155
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240802000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>735,37
+                        <FITID></<FITID>>00132708
+                        <CHECKNUM></<CHECKNUM>>00132708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       05219838000194
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240802000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>215,93
+                        <FITID></<FITID>>00142708
+                        <CHECKNUM></<CHECKNUM>>00142708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       20775046000190
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240802000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-40988,96
+                        <FITID></<FITID>>00152708
+                        <CHECKNUM></<CHECKNUM>>00152708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-17101,72
+                        <FITID></<FITID>>00162708
+                        <CHECKNUM></<CHECKNUM>>00162708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>DEBITO AUT. FAT.CARTAO MASTER CARD FINAL 5572
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>3337,88
+                        <FITID></<FITID>>00172708
+                        <CHECKNUM></<CHECKNUM>>00172708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX RECEBIDO                       28875494000177
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>4864,49
+                        <FITID></<FITID>>00182708
+                        <CHECKNUM></<CHECKNUM>>00182708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       04938153000135
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2755,04
+                        <FITID></<FITID>>00192708
+                        <CHECKNUM></<CHECKNUM>>00192708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       04938153000135
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1955,03
+                        <FITID></<FITID>>00202708
+                        <CHECKNUM></<CHECKNUM>>00202708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       09456779000129
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2413,75
+                        <FITID></<FITID>>00212708
+                        <CHECKNUM></<CHECKNUM>>00212708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01740448000104
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1011,79
+                        <FITID></<FITID>>00222708
+                        <CHECKNUM></<CHECKNUM>>00222708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       14586785000130
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1656,35
+                        <FITID></<FITID>>00232708
+                        <CHECKNUM></<CHECKNUM>>00232708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       29262377000109
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1912,72
+                        <FITID></<FITID>>00242708
+                        <CHECKNUM></<CHECKNUM>>00242708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01740448000104
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1329,36
+                        <FITID></<FITID>>00252708
+                        <CHECKNUM></<CHECKNUM>>00252708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       29262377000109
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240805000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-4134,69
+                        <FITID></<FITID>>00262708
+                        <CHECKNUM></<CHECKNUM>>00262708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>8697,10
+                        <FITID></<FITID>>00272708
+                        <CHECKNUM></<CHECKNUM>>00272708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>CR COB BLOQ COMP CONF RECEBIMENTO  3348/000763802
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>12248,07
+                        <FITID></<FITID>>00282708
+                        <CHECKNUM></<CHECKNUM>>00282708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       12888517000148
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>16922,19
+                        <FITID></<FITID>>00292708
+                        <CHECKNUM></<CHECKNUM>>00292708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       12888517000148
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>4666,59
+                        <FITID></<FITID>>00302708
+                        <CHECKNUM></<CHECKNUM>>00302708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       12888517000148
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1376,16
+                        <FITID></<FITID>>00312708
+                        <CHECKNUM></<CHECKNUM>>00312708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01968192000197
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2691,54
+                        <FITID></<FITID>>00322708
+                        <CHECKNUM></<CHECKNUM>>00322708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       11993316000148
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>4642,22
+                        <FITID></<FITID>>00332708
+                        <CHECKNUM></<CHECKNUM>>00332708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01616319000109
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>3628,46
+                        <FITID></<FITID>>00342708
+                        <CHECKNUM></<CHECKNUM>>00342708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25043639000185
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>611,81
+                        <FITID></<FITID>>00352708
+                        <CHECKNUM></<CHECKNUM>>00352708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25043639000185
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>803,30
+                        <FITID></<FITID>>00362708
+                        <CHECKNUM></<CHECKNUM>>00362708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25043639000185
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>267,30
+                        <FITID></<FITID>>00372708
+                        <CHECKNUM></<CHECKNUM>>00372708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25043639000185
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>481,46
+                        <FITID></<FITID>>00382708
+                        <CHECKNUM></<CHECKNUM>>00382708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       06075901000129
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>584,12
+                        <FITID></<FITID>>00392708
+                        <CHECKNUM></<CHECKNUM>>00392708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01068055000104
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>359,08
+                        <FITID></<FITID>>00402708
+                        <CHECKNUM></<CHECKNUM>>00402708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       13842783000100
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1103,70
+                        <FITID></<FITID>>00412708
+                        <CHECKNUM></<CHECKNUM>>00412708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01068055000104
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240806000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-59083,10
+                        <FITID></<FITID>>00422708
+                        <CHECKNUM></<CHECKNUM>>00422708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240807000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>81,11
+                        <FITID></<FITID>>00432708
+                        <CHECKNUM></<CHECKNUM>>00432708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       10496025000181
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240807000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-150000,00
+                        <FITID></<FITID>>00442708
+                        <CHECKNUM></<CHECKNUM>>00442708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX ENVIADO                        RC CAPITAL SOLUTIONS SA
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240807000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>149918,89
+                        <FITID></<FITID>>00452708
+                        <CHECKNUM></<CHECKNUM>>00452708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1958,74
+                        <FITID></<FITID>>00462708
+                        <CHECKNUM></<CHECKNUM>>00462708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01181239000178
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>23003,42
+                        <FITID></<FITID>>00472708
+                        <CHECKNUM></<CHECKNUM>>00472708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01596018000160
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>584,95
+                        <FITID></<FITID>>00482708
+                        <CHECKNUM></<CHECKNUM>>00482708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01181239000178
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>167,75
+                        <FITID></<FITID>>00492708
+                        <CHECKNUM></<CHECKNUM>>00492708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       00167437000114
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>644,00
+                        <FITID></<FITID>>00502708
+                        <CHECKNUM></<CHECKNUM>>00502708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01181239000178
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2110,97
+                        <FITID></<FITID>>00512708
+                        <CHECKNUM></<CHECKNUM>>00512708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       02186708000104
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>391,86
+                        <FITID></<FITID>>00522708
+                        <CHECKNUM></<CHECKNUM>>00522708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       00167437000114
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>77,25
+                        <FITID></<FITID>>00532708
+                        <CHECKNUM></<CHECKNUM>>00532708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       15439299000152
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>5418,63
+                        <FITID></<FITID>>00542708
+                        <CHECKNUM></<CHECKNUM>>00542708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01596018000160
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>7762,39
+                        <FITID></<FITID>>00552708
+                        <CHECKNUM></<CHECKNUM>>00552708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01596018000160
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>642,77
+                        <FITID></<FITID>>00562708
+                        <CHECKNUM></<CHECKNUM>>00562708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       00167437000114
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240808000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-42762,73
+                        <FITID></<FITID>>00572708
+                        <CHECKNUM></<CHECKNUM>>00572708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-13603,14
+                        <FITID></<FITID>>00038120
+                        <CHECKNUM></<CHECKNUM>>00038120
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>DEBITO EMPRESTIMO                  PARC 017/042 300000038120
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>8578,99
+                        <FITID></<FITID>>00592708
+                        <CHECKNUM></<CHECKNUM>>00592708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       06070364000124
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1103,95
+                        <FITID></<FITID>>00602708
+                        <CHECKNUM></<CHECKNUM>>00602708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       12136401000152
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>8539,25
+                        <FITID></<FITID>>00612708
+                        <CHECKNUM></<CHECKNUM>>00612708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       06071702000142
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>7114,96
+                        <FITID></<FITID>>00622708
+                        <CHECKNUM></<CHECKNUM>>00622708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       06071702000142
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>201,53
+                        <FITID></<FITID>>00632708
+                        <CHECKNUM></<CHECKNUM>>00632708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       45948503000121
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>7591,91
+                        <FITID></<FITID>>00642708
+                        <CHECKNUM></<CHECKNUM>>00642708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01125780000169
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>4826,28
+                        <FITID></<FITID>>00652708
+                        <CHECKNUM></<CHECKNUM>>00652708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       12136401000152
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2246,16
+                        <FITID></<FITID>>00662708
+                        <CHECKNUM></<CHECKNUM>>00662708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       17043544000133
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>498,89
+                        <FITID></<FITID>>00672708
+                        <CHECKNUM></<CHECKNUM>>00672708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       11283491000141
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2582,62
+                        <FITID></<FITID>>00682708
+                        <CHECKNUM></<CHECKNUM>>00682708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       13822397000149
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>4062,27
+                        <FITID></<FITID>>00692708
+                        <CHECKNUM></<CHECKNUM>>00692708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       02186708000104
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1052,88
+                        <FITID></<FITID>>00702708
+                        <CHECKNUM></<CHECKNUM>>00702708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       02186708000104
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>604,99
+                        <FITID></<FITID>>00712708
+                        <CHECKNUM></<CHECKNUM>>00712708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       44798711000129
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>15747,55
+                        <FITID></<FITID>>00722708
+                        <CHECKNUM></<CHECKNUM>>00722708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       10111631000131
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>21848,42
+                        <FITID></<FITID>>00732708
+                        <CHECKNUM></<CHECKNUM>>00732708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       10111631000131
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>16114,65
+                        <FITID></<FITID>>00742708
+                        <CHECKNUM></<CHECKNUM>>00742708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       13822397000149
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>5186,32
+                        <FITID></<FITID>>00752708
+                        <CHECKNUM></<CHECKNUM>>00752708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       15260930000151
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1736,54
+                        <FITID></<FITID>>00762708
+                        <CHECKNUM></<CHECKNUM>>00762708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       14147912000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1933,05
+                        <FITID></<FITID>>00772708
+                        <CHECKNUM></<CHECKNUM>>00772708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       02186708000104
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>7808,47
+                        <FITID></<FITID>>00782708
+                        <CHECKNUM></<CHECKNUM>>00782708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       13661399000101
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>5425,69
+                        <FITID></<FITID>>00792708
+                        <CHECKNUM></<CHECKNUM>>00792708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       04786328000136
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-90000,00
+                        <FITID></<FITID>>00802708
+                        <CHECKNUM></<CHECKNUM>>00802708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX ENVIADO                        341/6630/0000000000288774
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240809000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-21202,23
+                        <FITID></<FITID>>00812708
+                        <CHECKNUM></<CHECKNUM>>00812708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>7240,05
+                        <FITID></<FITID>>00822708
+                        <CHECKNUM></<CHECKNUM>>00822708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>CR COB BLOQ COMP CONF RECEBIMENTO  3348/000763802
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1015,69
+                        <FITID></<FITID>>00832708
+                        <CHECKNUM></<CHECKNUM>>00832708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1015,69
+                        <FITID></<FITID>>00842708
+                        <CHECKNUM></<CHECKNUM>>00842708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1239,43
+                        <FITID></<FITID>>00852708
+                        <CHECKNUM></<CHECKNUM>>00852708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1255,05
+                        <FITID></<FITID>>00862708
+                        <CHECKNUM></<CHECKNUM>>00862708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1269,97
+                        <FITID></<FITID>>00872708
+                        <CHECKNUM></<CHECKNUM>>00872708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1292,46
+                        <FITID></<FITID>>00882708
+                        <CHECKNUM></<CHECKNUM>>00882708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1319,21
+                        <FITID></<FITID>>00892708
+                        <CHECKNUM></<CHECKNUM>>00892708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1339,09
+                        <FITID></<FITID>>00902708
+                        <CHECKNUM></<CHECKNUM>>00902708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-2545,33
+                        <FITID></<FITID>>00912708
+                        <CHECKNUM></<CHECKNUM>>00912708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-2645,77
+                        <FITID></<FITID>>00922708
+                        <CHECKNUM></<CHECKNUM>>00922708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-2748,33
+                        <FITID></<FITID>>00932708
+                        <CHECKNUM></<CHECKNUM>>00932708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-2789,76
+                        <FITID></<FITID>>00942708
+                        <CHECKNUM></<CHECKNUM>>00942708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PRESTACAO CONSORCIO                PGTO EVENTUAIS
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>4242,76
+                        <FITID></<FITID>>00952708
+                        <CHECKNUM></<CHECKNUM>>00952708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX RECEBIDO                       14239578000100
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>55186,22
+                        <FITID></<FITID>>00962708
+                        <CHECKNUM></<CHECKNUM>>00962708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25053083000108
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>10047,67
+                        <FITID></<FITID>>00972708
+                        <CHECKNUM></<CHECKNUM>>00972708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25053083000108
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>565,47
+                        <FITID></<FITID>>00982708
+                        <CHECKNUM></<CHECKNUM>>00982708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25053083000108
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>610,01
+                        <FITID></<FITID>>00992708
+                        <CHECKNUM></<CHECKNUM>>00992708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25053083000108
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>83,44
+                        <FITID></<FITID>>01002708
+                        <CHECKNUM></<CHECKNUM>>01002708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>321,93
+                        <FITID></<FITID>>01012708
+                        <CHECKNUM></<CHECKNUM>>01012708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>155,83
+                        <FITID></<FITID>>01022708
+                        <CHECKNUM></<CHECKNUM>>01022708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>3394,51
+                        <FITID></<FITID>>01032708
+                        <CHECKNUM></<CHECKNUM>>01032708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       25053083000108
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>205,22
+                        <FITID></<FITID>>01042708
+                        <CHECKNUM></<CHECKNUM>>01042708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>67,88
+                        <FITID></<FITID>>01052708
+                        <CHECKNUM></<CHECKNUM>>01052708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>510,03
+                        <FITID></<FITID>>01062708
+                        <CHECKNUM></<CHECKNUM>>01062708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>684,10
+                        <FITID></<FITID>>01072708
+                        <CHECKNUM></<CHECKNUM>>01072708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>309,05
+                        <FITID></<FITID>>01082708
+                        <CHECKNUM></<CHECKNUM>>01082708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>583,38
+                        <FITID></<FITID>>01092708
+                        <CHECKNUM></<CHECKNUM>>01092708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>257,53
+                        <FITID></<FITID>>01102708
+                        <CHECKNUM></<CHECKNUM>>01102708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>65,88
+                        <FITID></<FITID>>01112708
+                        <CHECKNUM></<CHECKNUM>>01112708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>862,27
+                        <FITID></<FITID>>01122708
+                        <CHECKNUM></<CHECKNUM>>01122708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1019,55
+                        <FITID></<FITID>>01132708
+                        <CHECKNUM></<CHECKNUM>>01132708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>3913,95
+                        <FITID></<FITID>>01142708
+                        <CHECKNUM></<CHECKNUM>>01142708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>79,35
+                        <FITID></<FITID>>01152708
+                        <CHECKNUM></<CHECKNUM>>01152708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1082,29
+                        <FITID></<FITID>>01162708
+                        <CHECKNUM></<CHECKNUM>>01162708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>5328,39
+                        <FITID></<FITID>>01172708
+                        <CHECKNUM></<CHECKNUM>>01172708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>65,83
+                        <FITID></<FITID>>01182708
+                        <CHECKNUM></<CHECKNUM>>01182708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1702,04
+                        <FITID></<FITID>>01192708
+                        <CHECKNUM></<CHECKNUM>>01192708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>225,61
+                        <FITID></<FITID>>01202708
+                        <CHECKNUM></<CHECKNUM>>01202708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>6031,49
+                        <FITID></<FITID>>01212708
+                        <CHECKNUM></<CHECKNUM>>01212708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1706,42
+                        <FITID></<FITID>>01222708
+                        <CHECKNUM></<CHECKNUM>>01222708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1052,61
+                        <FITID></<FITID>>01232708
+                        <CHECKNUM></<CHECKNUM>>01232708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01786029000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>339,90
+                        <FITID></<FITID>>01242708
+                        <CHECKNUM></<CHECKNUM>>01242708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01915313000132
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>924,80
+                        <FITID></<FITID>>01252708
+                        <CHECKNUM></<CHECKNUM>>01252708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       27187203000195
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1449,15
+                        <FITID></<FITID>>01262708
+                        <CHECKNUM></<CHECKNUM>>01262708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01915313000132
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>649,02
+                        <FITID></<FITID>>01272708
+                        <CHECKNUM></<CHECKNUM>>01272708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       02125227000199
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2730,28
+                        <FITID></<FITID>>01282708
+                        <CHECKNUM></<CHECKNUM>>01282708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       02125227000199
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>365,13
+                        <FITID></<FITID>>01292708
+                        <CHECKNUM></<CHECKNUM>>01292708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       02125227000199
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240812000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-93583,26
+                        <FITID></<FITID>>01302708
+                        <CHECKNUM></<CHECKNUM>>01302708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>18930,17
+                        <FITID></<FITID>>01312708
+                        <CHECKNUM></<CHECKNUM>>01312708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX RECEBIDO                       14239578000100
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>468,30
+                        <FITID></<FITID>>01322708
+                        <CHECKNUM></<CHECKNUM>>01322708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       10465644000109
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>9227,67
+                        <FITID></<FITID>>01332708
+                        <CHECKNUM></<CHECKNUM>>01332708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01123678000124
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>39696,64
+                        <FITID></<FITID>>01342708
+                        <CHECKNUM></<CHECKNUM>>01342708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01067305000183
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>78,69
+                        <FITID></<FITID>>01352708
+                        <CHECKNUM></<CHECKNUM>>01352708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       04394880000189
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>628,51
+                        <FITID></<FITID>>01362708
+                        <CHECKNUM></<CHECKNUM>>01362708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX RECEBIDO                       01123678000124
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>446,96
+                        <FITID></<FITID>>01372708
+                        <CHECKNUM></<CHECKNUM>>01372708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX RECEBIDO                       06348983000138
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>449,99
+                        <FITID></<FITID>>01382708
+                        <CHECKNUM></<CHECKNUM>>01382708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX RECEBIDO                       01123678000124
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>756,08
+                        <FITID></<FITID>>01392708
+                        <CHECKNUM></<CHECKNUM>>01392708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX RECEBIDO                       06348983000138
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-200000,00
+                        <FITID></<FITID>>01402708
+                        <CHECKNUM></<CHECKNUM>>01402708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX ENVIADO                        341/6630/0000000000995717
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-0,90
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB COM REG COMPE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240813000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>129317,89
+                        <FITID></<FITID>>01422708
+                        <CHECKNUM></<CHECKNUM>>01422708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2065,59
+                        <FITID></<FITID>>01432708
+                        <CHECKNUM></<CHECKNUM>>01432708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       08868932000162
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1970,18
+                        <FITID></<FITID>>01442708
+                        <CHECKNUM></<CHECKNUM>>01442708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01612092000123
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>6749,13
+                        <FITID></<FITID>>01452708
+                        <CHECKNUM></<CHECKNUM>>01452708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       33266248000158
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1963,75
+                        <FITID></<FITID>>01462708
+                        <CHECKNUM></<CHECKNUM>>01462708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       11740265000142
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1400,39
+                        <FITID></<FITID>>01472708
+                        <CHECKNUM></<CHECKNUM>>01472708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       21675280000108
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>690,10
+                        <FITID></<FITID>>01482708
+                        <CHECKNUM></<CHECKNUM>>01482708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       18468989000128
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>11615,24
+                        <FITID></<FITID>>01492708
+                        <CHECKNUM></<CHECKNUM>>01492708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01123678000124
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>27990,68
+                        <FITID></<FITID>>01502708
+                        <CHECKNUM></<CHECKNUM>>01502708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01617413000182
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>601,86
+                        <FITID></<FITID>>01512708
+                        <CHECKNUM></<CHECKNUM>>01512708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       29993978000183
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>94,31
+                        <FITID></<FITID>>01522708
+                        <CHECKNUM></<CHECKNUM>>01522708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       29993978000183
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>390,77
+                        <FITID></<FITID>>01532708
+                        <CHECKNUM></<CHECKNUM>>01532708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       11137827000168
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>13329,28
+                        <FITID></<FITID>>01542708
+                        <CHECKNUM></<CHECKNUM>>01542708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01617413000182
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-134000,00
+                        <FITID></<FITID>>01552708
+                        <CHECKNUM></<CHECKNUM>>01552708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX ENVIADO                        341/6630/0000000000995717
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240814000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>65138,72
+                        <FITID></<FITID>>01562708
+                        <CHECKNUM></<CHECKNUM>>01562708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240815000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-14740,40
+                        <FITID></<FITID>>00045200
+                        <CHECKNUM></<CHECKNUM>>00045200
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PREST. EMPREST/FINANC. C/ GARANTIA CONTRATO 300000045200
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240815000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>14206,08
+                        <FITID></<FITID>>01582708
+                        <CHECKNUM></<CHECKNUM>>01582708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>CR COB BLOQ COMP CONF RECEBIMENTO  3348/000763802
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240815000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>99,20
+                        <FITID></<FITID>>01592708
+                        <CHECKNUM></<CHECKNUM>>01592708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       13172589000157
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240815000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>220,33
+                        <FITID></<FITID>>01602708
+                        <CHECKNUM></<CHECKNUM>>01602708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01740422000166
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240815000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>466,26
+                        <FITID></<FITID>>01612708
+                        <CHECKNUM></<CHECKNUM>>01612708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       01740422000166
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240815000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-2,70
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB COM REG COMPE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240815000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-0,90
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB CORBAN FISICO CMP
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240815000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-247,87
+                        <FITID></<FITID>>01642708
+                        <CHECKNUM></<CHECKNUM>>01642708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>50,00
+                        <FITID></<FITID>>01652708
+                        <CHECKNUM></<CHECKNUM>>01652708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       04973965000111
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-2000,00
+                        <FITID></<FITID>>01662708
+                        <CHECKNUM></<CHECKNUM>>01662708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX ENVIADO                        GABRIEL INACIO FERREIRA N
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-321,95
+                        <FITID></<FITID>>01672708
+                        <CHECKNUM></<CHECKNUM>>01672708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>DEBITO AUT. TITULO CAPITALIZACAO   EAD60301885
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-321,95
+                        <FITID></<FITID>>01682708
+                        <CHECKNUM></<CHECKNUM>>01682708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>DEBITO AUT. TITULO CAPITALIZACAO   EAD60301886
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-321,95
+                        <FITID></<FITID>>01692708
+                        <CHECKNUM></<CHECKNUM>>01692708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>DEBITO AUT. TITULO CAPITALIZACAO   EAD60301887
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-321,95
+                        <FITID></<FITID>>01702708
+                        <CHECKNUM></<CHECKNUM>>01702708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>DEBITO AUT. TITULO CAPITALIZACAO   EAD60301888
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-321,95
+                        <FITID></<FITID>>01712708
+                        <CHECKNUM></<CHECKNUM>>01712708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>DEBITO AUT. TITULO CAPITALIZACAO   EAD60301889
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-0,90
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB COM REG COMPE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240816000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2127,20
+                        <FITID></<FITID>>01732708
+                        <CHECKNUM></<CHECKNUM>>01732708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>RESGATE CONTAMAX AUTOMATICO
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240819000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>300000,00
+                        <FITID></<FITID>>01742708
+                        <CHECKNUM></<CHECKNUM>>01742708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>RESGATE FUNDO
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240819000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>96455,52
+                        <FITID></<FITID>>01752708
+                        <CHECKNUM></<CHECKNUM>>01752708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TRANSF VALORES MESMA TITULARIDADE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240819000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>974,51
+                        <FITID></<FITID>>01762708
+                        <CHECKNUM></<CHECKNUM>>01762708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       37623352000103
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240819000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-390000,00
+                        <FITID></<FITID>>01772708
+                        <CHECKNUM></<CHECKNUM>>01772708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX ENVIADO                        341/6630/0000000000288774
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240819000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1,08
+                        <FITID></<FITID>>01782708
+                        <CHECKNUM></<CHECKNUM>>01782708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>SEGURO CHEQUE PROTEGIDO            PERIODO: 19/07 A 18/08/24
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240819000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-10,82
+                        <FITID></<FITID>>01792708
+                        <CHECKNUM></<CHECKNUM>>01792708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>JUROS SALDO UTILIZ ATE LIMITE      PERIODO: 19/07 A 18/08/24
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240819000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-5984,68
+                        <FITID></<FITID>>01802708
+                        <CHECKNUM></<CHECKNUM>>01802708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240820000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>2647,24
+                        <FITID></<FITID>>01812708
+                        <CHECKNUM></<CHECKNUM>>01812708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>CR COB BLOQ COMP CONF RECEBIMENTO  3348/000763802
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240820000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-4,50
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB COM REG COMPE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240820000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-2642,74
+                        <FITID></<FITID>>01832708
+                        <CHECKNUM></<CHECKNUM>>01832708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240821000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>1280,00
+                        <FITID></<FITID>>01842708
+                        <CHECKNUM></<CHECKNUM>>01842708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TED RECEBIDA                       00167437000114
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240821000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-0,90
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB COM REG COMPE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240821000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1279,10
+                        <FITID></<FITID>>01862708
+                        <CHECKNUM></<CHECKNUM>>01862708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240822000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>17727,79
+                        <FITID></<FITID>>01872708
+                        <CHECKNUM></<CHECKNUM>>01872708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>CR COB BLOQ COMP CONF RECEBIMENTO  3348/000763802
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240822000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-0,90
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB COM REG COMPE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240822000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-17726,89
+                        <FITID></<FITID>>01892708
+                        <CHECKNUM></<CHECKNUM>>01892708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240826000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>17734,28
+                        <FITID></<FITID>>01902708
+                        <CHECKNUM></<CHECKNUM>>01902708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>CR COB BLOQ COMP CONF RECEBIMENTO  3348/000763802
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240826000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>600000,00
+                        <FITID></<FITID>>01912708
+                        <CHECKNUM></<CHECKNUM>>01912708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>RESGATE FUNDO
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240826000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-500000,00
+                        <FITID></<FITID>>01922708
+                        <CHECKNUM></<CHECKNUM>>01922708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>PIX ENVIADO                        341/6630/0000000000995717
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240826000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-1,80
+                        <FITID></<FITID>>00198025
+                        <CHECKNUM></<CHECKNUM>>00198025
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>TAR LIQ COB COM REG COMPE
+                    </STMTTRN>
+                    <STMTTRN></<STMTTRN>>
+                        <TRNTYPE></<TRNTYPE>>OTHER
+                        <DTPOSTED></<DTPOSTED>>20240826000000[-3:GMT]
+                        <TRNAMT></<TRNAMT>>-117732,48
+                        <FITID></<FITID>>01942708
+                        <CHECKNUM></<CHECKNUM>>01942708
+                        <PAYEEID></<PAYEEID>>0
+                        <MEMO></<MEMO>>APLICACAO CONTAMAX
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL></<LEDGERBAL>>
+                    <BALAMT></<BALAMT>>0,00
+                    <DTASOF></<DTASOF>>20240827094438[-3:GMT]
+                </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>
