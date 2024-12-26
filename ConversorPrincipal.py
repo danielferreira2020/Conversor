@@ -84,71 +84,25 @@ class Classe2(ClasseBase):
         return output.getvalue()
 
 
-# Classe 3: Converter arquivo para arquivo TXT
-class Classe3:
-    def formatar_linha(self, linha):
-        """
-        Formata uma linha com base no layout especificado.
-        """
-        partes = [parte.strip() for parte in linha.split(';')]
-
-        if len(partes) < 6:
-            print(f"Linha ignorada (menos de 6 campos): {linha}")
-            return None
-
+# Classe 3: Converter arquivo Excel para arquivo TXT
+class Classe3(ClasseBase):
+    def converter_excel_para_txt(self, arquivo_excel):
         try:
-            # Matricula (Campo 1): Alinhar à direita com zeros à esquerda
-            matricula = partes[0].zfill(15)
-
-            # CPF (Campo 3): Apenas números, alinhar à direita com zeros
-            cpf = ''.join(filter(str.isdigit, partes[2])).zfill(11)
-
-            # Valor a ser descontado (Campo 5): Converter para float e formatar com vírgula
-            valor = f"{float(partes[4]):,.2f}".replace('.', ',')
-
-            # Ano e mês da folha (Campo 6): Apenas números, formato AAAAMM
-            ano_mes = ''.join(filter(str.isdigit, partes[5]))
-
-            # Nome do cliente (Campo 8): Apenas o nome completo
-            nome_cliente = partes[7]
-
-            # Monta a linha formatada
-            linha_formatada = (
-                f"{matricula};"  # Campo 1
-                f",;"  # Campo 2 delimitador
-                f"{cpf};"  # Campo 3
-                f",;"  # Campo 4 delimitador
-                f"{valor};"  # Campo 5
-                f",;"  # Campo 6 delimitador
-                f"LIFCC;"  # Campo 7 constante
-                f",;"  # Campo 8 delimitador
-                f"{ano_mes};"  # Campo 9
-                f",;"  # Campo 10 delimitador
-                f"{nome_cliente};"  # Campo 11
-                f",;"  # Campo 12 delimitador
-            )
-
-            return linha_formatada
-
-        except ValueError as e:
-            print(f"Erro ao processar linha: {linha}\n{e}")
+            df = pd.read_excel(arquivo_excel)
+            conteudo_txt = df.to_csv(sep=';', index=False)
+            return conteudo_txt
+        except Exception as e:
+            self.exibir_mensagem_erro(f"Erro ao converter o arquivo Excel: {e}")
             return None
 
-    def processar_arquivo(self, conteudo):
-        """
-        Processa um arquivo inteiro, formatando cada linha.
-        """
-        linhas = conteudo.split('\n')
-        linhas_formatadas = [self.formatar_linha(linha) for linha in linhas if linha.strip()]
-        return '\n'.join(filter(None, linhas_formatadas))
 
 # Classe Principal que gerencia as interações
 class ClassePrincipal:
     def __init__(self):
         self.opcoes_classes = {
-            'ConsigSimples': Classe1(),
+            'SimplesConsig': Classe1(),
             'eConsig': Classe2(),
-            'SafeConsig': Classe3()
+            'Classe 3': Classe3()
         }
     def executar(self):
         st.title('📝 Conversor de Arquivos de Lote')
@@ -157,16 +111,16 @@ class ClassePrincipal:
         classe_selecionada = st.sidebar.radio("Escolha o método de conversão:", list(self.opcoes_classes.keys()))
         
         # Exibe o conteúdo correspondente à classe selecionada
-        if classe_selecionada == 'ConsigSimples':
+        if classe_selecionada == 'SimplesConsig':
             self.interface_classe1()
         elif classe_selecionada == 'eConsig':
             self.interface_classe2()
-        elif classe_selecionada == 'SafeConsig':
+        elif classe_selecionada == 'Classe 3':
             self.interface_classe3()
 
     def interface_classe1(self):
-        conversor = self.opcoes_classes['ConsigSimples']
-        st.subheader('🔄 Conversão Para ConsigSimples')
+        conversor = self.opcoes_classes['SimplesConsig']
+        st.subheader('🔄 Conversão Para SimplesConsig')
         arquivo_txt = st.file_uploader("Selecione o arquivo .txt para conversão", type=['txt'])
 
         if arquivo_txt is not None:
@@ -244,7 +198,7 @@ class ClassePrincipal:
                 if st.button('❌ Excluir Registro'):
                     st.session_state['dados'].pop(indice_selecionado)
                     st.success('✅ Registro excluído com sucesso!')
-                    st.rerun()  # Atualiza a interface após a exclusão
+                    st.experimental_rerun()
 
             with col2:
                 # **Botão para editar o registro**
@@ -260,11 +214,7 @@ class ClassePrincipal:
                         valor_parcela_edit = st.text_input('Valor da Parcela', value=registro['valor_parcela'])
                         prazo_total_edit = st.text_input('Prazo Total', value=registro['prazo_total'])
                         competencia_edit = st.text_input('Competência (MMAAAA)', value=registro['competencia'])
-                        codigo_operacao_edit = st.selectbox(
-                            'Código de Operação', 
-                            ['I', 'A', 'E'], 
-                            index=['I', 'A', 'E'].index(registro['codigo_operacao'])
-                        )
+                        codigo_operacao_edit = st.selectbox('Código de Operação', ['I', 'A', 'E'], index=['I', 'A', 'E'].index(registro['codigo_operacao']))
 
                         salvar_edicao = st.form_submit_button('Salvar Edição')
 
@@ -282,17 +232,18 @@ class ClassePrincipal:
                                 'codigo_operacao': codigo_operacao_edit
                             }
                             st.success('✅ Registro editado com sucesso!')
-                            st.rerun()  # Atualiza a interface após a edição
+                            st.experimental_rerun()
 
             with col3:
                 # **Botão para limpar todos os registros**
                 if st.button('🧹 Limpar Registros'):
                     st.session_state['dados'] = []
                     st.success('✅ Todos os registros foram limpos com sucesso!')
-                    st.rerun()  # Atualiza a interface após a limpeza
-            
+                    st.experimental_rerun()
+
+
             # Gerar o conteúdo do arquivo TXT (em memória)
-            arquivo_txt = conversor.gerar_arquivo_txt(pd.DataFrame(st.session_state['dados']))
+            arquivo_txt = conversor.gerar_arquivo_txt(df)
 
             # Botão de download para baixar o arquivo TXT
             st.download_button(
@@ -302,30 +253,19 @@ class ClassePrincipal:
                 mime='text/plain'
             )
 
-
     def interface_classe3(self):
-        conversor = self
-        st.subheader('📄 Conversão Para SafeConsig')
+        conversor = self.opcoes_classes['Classe 3']
+        st.subheader('📄 Conversão de Excel para TXT')
         arquivo_excel = st.file_uploader("Selecione o arquivo .xlsx para conversão", type=['xlsx'])
 
         if arquivo_excel is not None:
-            conteudo_excel = pd.read_excel(arquivo_excel)
-            conteudo_txt = ''
-
-            for _, row in conteudo_excel.iterrows():
-                linha = ';'.join(map(str, row.values))
-                linha_formatada = conversor.formatar_linha(linha)
-                if linha_formatada:
-                    conteudo_txt += linha_formatada + '\n'
-
-            if conteudo_txt:
-                st.text_area("Conteúdo do arquivo convertido", conteudo_txt, height=200)
-                st.download_button("📥 Baixar Arquivo Convertido", conteudo_txt, "arquivo_convertido_classe3.txt", "text/plain")
-
+            conteudo_convertido = conversor.converter_excel_para_txt(arquivo_excel)
+            if conteudo_convertido:
+                st.text_area("Conteúdo do arquivo convertido", conteudo_convertido, height=200)
+                st.download_button("📥 Baixar Arquivo Convertido", conteudo_convertido, "arquivo_convertido_classe3.txt", "text/plain")
 
 
 # Execução da classe principal
 if __name__ == "__main__":
     app = ClassePrincipal()
     app.executar()
-    
