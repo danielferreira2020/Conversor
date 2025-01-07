@@ -65,6 +65,10 @@ class Classe2(ClasseBase):
             valor = "0.00"
         return valor
 
+    def formatar_cpf(self, cpf):
+        cpf = cpf.replace(".", "").repace("-", "")
+        return cpf
+
     def gerar_arquivo_txt(self, dados):
         output = io.StringIO()
         for index, row in dados.iterrows():
@@ -161,7 +165,7 @@ class ClassePrincipal:
             if submit_button:
                 st.session_state['dados'].append({
                     'matricula': matricula,
-                    'cpf': cpf,
+                    'cpf': conversor.formatar_cpf(cpf),
                     'nome': nome,
                     'codigo_estabelecimento': '001',
                     'orgao': '001',
