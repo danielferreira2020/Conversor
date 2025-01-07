@@ -66,7 +66,7 @@ class Classe2(ClasseBase):
         return valor
 
     def formatar_cpf(self, cpf):
-        cpf = cpf.replace(".", "").repace("-", "")
+        cpf = cpf.replace(".", "").replace("-", "")
         return cpf
 
     def gerar_arquivo_txt(self, dados):
