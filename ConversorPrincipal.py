@@ -135,7 +135,7 @@ class Classe4(ClasseBase):
             valor_formatado = f"{valor:015.2f}".replace(".", ",")
         except ValueError:
             valor_formatado = "000000000000,00"
-        return valor_formatado
+        return valor_formatado.zfill(15)
 
     def formatar_cpf(self, cpf):
         """
@@ -160,8 +160,8 @@ class Classe4(ClasseBase):
         for index, row in dados.iterrows():
             linha = (
                 f"{str(row['unidade']).zfill(2)}"  # Unidade
-                f"{str(row['codigo_verba']).zfill(3)}"  # Código de Verba
-                f"{row['matricula'].ljust(12)}"  # Matrícula
+                f"{str(row['codigo_verba']).zfill(10)}"  # Código de Verba
+                f"{str(row['matricula']).zfill(12)}"  # Matrícula
                 f"{str(row['parcelas_atual']).zfill(2)}"  # Parcelas Atual
                 f"{str(row['total_parcelas']).zfill(2)}"  # Total de Parcelas
                 f"{self.formatar_valor_parcela(row['valor_parcela'])}"  # Valor da Parcela
@@ -513,7 +513,7 @@ class ClassePrincipal:
                 # Aplicar formatação com zeros à esquerda
                 unidade_formatada = unidade.zfill(2)
                 codigo_verba_formatado = codigo_verba.zfill(3)
-                matricula_formatada = matricula.ljust(12, ' ')
+                matricula_formatada = matricula.zfill(12)
                 valor_parcela_formatado = conversor.formatar_valor_parcela(valor_parcela)
                 cpf_formatado = cpf.zfill(11)
 
@@ -528,7 +528,7 @@ class ClassePrincipal:
                     'folha_referencia': folha_referencia
                 })
                 st.success('✅ Registro adicionado com sucesso!')
-                st.experimental_rerun()
+                st.rerun()
 
         # Exibir a tabela de registros adicionados
         if len(st.session_state['dados']) > 0:
@@ -545,10 +545,10 @@ class ClassePrincipal:
             col1, col2, col3 = st.columns(3)
 
             with col1:
-                if st.button('❌ Excluir Registro'):
+                if  st.button('❌ Excluir Registro'):
                     st.session_state['dados'].pop(indice_selecionado)
                     st.success('✅ Registro excluído com sucesso!')
-                    st.experimental_rerun()
+                    st.rerun()
 
             with col2:
                 if st.button('✏️ Editar Registro'):
@@ -568,7 +568,7 @@ class ClassePrincipal:
                             st.session_state['dados'][indice_selecionado] = {
                                 'unidade': unidade_edit.zfill(2),
                                 'codigo_verba': codigo_verba_edit.zfill(3),
-                                'matricula': matricula_edit.ljust(12, ' '),
+                                'matricula': matricula_edit,
                                 'parcelas_atual': '01',
                                 'total_parcelas': '01',
                                 'valor_parcela': conversor.formatar_valor_parcela(valor_parcela_edit),
@@ -576,13 +576,13 @@ class ClassePrincipal:
                                 'folha_referencia': folha_referencia_edit
                             }
                             st.success('✅ Registro editado com sucesso!')
-                            st.experimental_rerun()
+                            st.rerun()
 
             with col3:
                 if  st.button('🧹 Limpar Registros'):
                     st.session_state['dados'] = []
                     st.success('✅ Todos os registros foram limpos com sucesso!')
-                    st.experimental_rerun()
+                    st.rerun()
 
             # Gerar conteúdo para o arquivo TXT
             arquivo_txt = conversor.gerar_arquivo_txt(df)
