@@ -1,10 +1,30 @@
 import streamlit as st
 import pandas as pd
 import io
+import os
 import datetime
+import base64 
 
 
-st.sidebar.image("C:/Users/DAniel/Documents/Projetos/Desenvolvimento/Convercao/logo.png", width=255)
+def get_base64_image(image_path):
+    with open(image_path, "rb") as file:
+        return base64.b64encode(file.read()).decode()
+
+logo_path = "C:/Users/DAniel/Documents/Projetos/Desenvolvimento/Convercao/logo.png"
+
+if os.path.exists(logo_path):
+    logo_base64 = get_base64_image(logo_path)
+    st.sidebar.markdown(
+        f"""
+        <div style="text-align: center;">
+            <img src="data:image/png;base64,{logo_base64}" style="width:255px;">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+else:
+    st.sidebar.error("Logo não encontrada. Verifique o caminho do arquivo.")
+
 # Conteúdo da aplicação
 #st.title("Bem-vindo à Aplicação")
 #st.write("Esta é a sua aplicação com uma logo personalizada!")
