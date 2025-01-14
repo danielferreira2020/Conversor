@@ -4,6 +4,11 @@ import io
 import datetime
 
 
+st.sidebar.image("C:/Users/DAniel/Documents/Projetos/Desenvolvimento/Convercao/logo.png", width=255)
+# Conteúdo da aplicação
+#st.title("Bem-vindo à Aplicação")
+#st.write("Esta é a sua aplicação com uma logo personalizada!")
+
 # Classe base com métodos comuns
 class ClasseBase:
     def __init__(self):
@@ -11,7 +16,6 @@ class ClasseBase:
 
     def exibir_mensagem_erro(self, mensagem):
         st.error(f"Erro: {mensagem}")
-
 
 # Classe 1: Conversão baseada na primeira lógica
 class Classe1(ClasseBase):
@@ -495,7 +499,7 @@ class ClassePrincipal:
                 'Valor da Parcela',
                 placeholder='000000001000,15',
                 max_chars=15
-            )
+            ) 
             cpf = st.text_input(
                 'CPF do Servidor',
                 placeholder='00000000000',
