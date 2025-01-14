@@ -6,11 +6,12 @@ import datetime
 import base64 
 
 
+# Função para converter imagem em base64
 def get_base64_image(image_path):
     with open(image_path, "rb") as file:
         return base64.b64encode(file.read()).decode()
 
-logo_path = "C:/Users/DAniel/Documents/Projetos/Desenvolvimento/Convercao/logo.png"
+logo_path = "C:/Users/DAniel/Documents/Projetos/Desenvolvimento/Convercao/.streamlit/static/logo.png"
 
 if os.path.exists(logo_path):
     logo_base64 = get_base64_image(logo_path)
